@@ -2,7 +2,7 @@
     "type": "extension",
     "id": "com.fastspot.read-only-value-field-type",
     "version": "1.0",
-    "revision": 1,
+    "revision": 2,
     "compatibility": "4.2+",
     "title": "Read Only Value",
     "description": "A field type that implements a read-only value for display purposes but not editing.",
@@ -32,15 +32,13 @@
                 "id": "com.fastspot.read-only-value-field-type*read-only-value",
                 "name": "Read Only Value",
                 "use_cases": {
-                    "templates": "on",
-                    "modules": "on",
-                    "callouts": "on",
-                    "settings": "on"
+                    "modules": "on"
                 },
                 "self_draw": null,
                 "extension": "com.fastspot.read-only-value-field-type"
             }
         ],
         "tables": []
-    }
+    },
+    "sql_revisions": []
 }
